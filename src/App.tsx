@@ -9,10 +9,10 @@ import { LS, LSKeys } from "./ls";
 import { appSt } from "./style.css";
 import { Gap } from "@alfalab/core-components/gap";
 
-const alfaSmart = "alfabank://longread?endpoint=v1/adviser/longreads/67708";
+const longRead = "alfabank://longread?endpoint=v1/adviser/longreads/67708";
 
 const Redirect = () => {
-  window.location.href = alfaSmart;
+  window.location.href = longRead;
 
   return null;
 };
@@ -106,12 +106,7 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile
-          block
-          view="primary"
-          href="alfabank://longread?endpoint=v1/adviser/longreads/67708"
-          onClick={submit}
-        >
+        <ButtonMobile block view="primary" href={longRead} onClick={submit}>
           Хотим участвовать!
         </ButtonMobile>
       </div>
