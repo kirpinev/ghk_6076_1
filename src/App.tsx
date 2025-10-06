@@ -111,7 +111,11 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="">
+        <ButtonMobile
+          block
+          view="primary"
+          href="/longread?endpoint=v1/adviser/longreads/67708"
+        >
           Хотим участвовать!
         </ButtonMobile>
       </div>
