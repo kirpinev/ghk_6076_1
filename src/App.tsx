@@ -114,7 +114,7 @@ export const App = () => {
         <ButtonMobile
           block
           view="primary"
-          href="/longread?endpoint=v1/adviser/longreads/67708"
+          href="alfabank://longread?endpoint=v1/adviser/longreads/67708"
         >
           Хотим участвовать!
         </ButtonMobile>
