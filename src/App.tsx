@@ -42,13 +42,13 @@ export const App = () => {
         <Gap size={8} />
 
         <Typography.Title tag="h1" view="small" weight="bold">
-          +1 барабан кэшбэка за первую покупку ребёнка
+          50% на продукт дня за первую покупку ребёнка
         </Typography.Title>
 
         <Gap size={16} />
 
         <Typography.Text>
-          За первую оплату детской картой — ребёнок получит кэшбэк до 100%
+          За оплату детской картой - ребёнок получит кэшбэк до 50%
         </Typography.Text>
 
         <Gap size={32} />
@@ -93,11 +93,11 @@ export const App = () => {
           <img src={image3} alt="" width={70} height={70} />
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Typography.Text view="primary-medium" weight="bold">
-              Барабан кэшбэка от Вкусно и Точка
+              Бигфест во "Вкусно - и точка"
             </Typography.Text>
             <Gap size={4} />
             <Typography.Text color="secondary" view="primary-medium">
-              Кэшбэк до 100%
+              Кэшбэк до 50% на продукт дня
             </Typography.Text>
           </div>
         </div>
